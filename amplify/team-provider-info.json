@@ -1,0 +1,29 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pokecollect-dev-234812-authRole",
+      "UnauthRoleArn": "arn:aws:iam::253344794843:role/amplify-pokecollect-dev-234812-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::253344794843:role/amplify-pokecollect-dev-234812-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-pokecollect-dev-234812-deployment",
+      "UnauthRoleName": "amplify-pokecollect-dev-234812-unauthRole",
+      "StackName": "amplify-pokecollect-dev-234812",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:253344794843:stack/amplify-pokecollect-dev-234812/ea958fa0-3734-11ec-a48b-069a0a8b5d45",
+      "AmplifyAppId": "d21ns21qd2hjlk"
+    },
+    "categories": {
+      "function": {
+        "pokecollect76372b58CustomMessage": {
+          "REDIRECTURL": "",
+          "EMAILSUBJECT": "",
+          "EMAILMESSAGE": "",
+          "deploymentBucketName": "amplify-pokecollect-dev-234812-deployment",
+          "s3Key": "amplify-builds/pokecollect76372b58CustomMessage-704c356d314f5a6a7937-build.zip"
+        }
+      },
+      "auth": {
+        "pokecollect76372b58": {}
+      }
+    }
+  }
+}
