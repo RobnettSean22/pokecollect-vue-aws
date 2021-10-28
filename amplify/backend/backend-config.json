@@ -56,5 +56,11 @@
         ]
       }
     }
+  },
+  "storage": {
+    "pokecollecStorage": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
   }
 }

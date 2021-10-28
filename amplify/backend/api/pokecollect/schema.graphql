@@ -1,5 +1,14 @@
-type Todo @model {
+type Bins @model @auth({allow: owner}) {
+  id: ID!
+  owner: ID!
+  ownerId: String!
+  title: String!
+  createAt: String
+  updateAt: String
+  pokemoncards: [Photo] @connection
+}
+
+type Pokemon @model {
   id: ID!
   name: String!
-  description: String
 }
